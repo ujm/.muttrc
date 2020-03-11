@@ -1,4 +1,4 @@
-set realname = "後藤鮮明"
+set realname = "Your Name"
 set from = "your_name@your.mail.server.tld"
 set use_from = yes
 set envelope_from = yes
