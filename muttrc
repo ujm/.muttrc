@@ -9,7 +9,7 @@ set spoolfile=+/
 set header_cache=~/.cache/mutt
 
 set my_user = "your_name"
-set my_pass = "your_password"
+source "gpg -dq $HOME/.your.gpg.file.gpg |"
 
 set smtp_url = "smtp://$my_user:$my_pass@your.mail.server.tld"
 set pop_host = "pops://$my_user:$my_pass@your.mail.server.tld"
